@@ -1,0 +1,14 @@
+<script>
+    (function () {var g, e, r, a = window, l = document, t = arguments, s =
+    'script', cx = ['init', 'track'], gx = function ()
+{var x, i = this; for (i._q
+    = [], x = 0; cx.length > x; x++)
+    (function (x) {i[x] = function () {return (
+    i._q.push( [x].concat(Array.prototype.slice.call(arguments, 0)) ), i );};})(cx[x]);};
+    for (a._gt = a._gt || {}, g = 0; t.length > g; t++) a._gt[t[g]] =
+    a[t[g]] = a[t[g]] ||
+    new gx(); (e = l.createElement(s)), (e.async = 1), (e.src =
+    '//cdn.thequin.ai/lib/v2/geralt.min.js'), (r = l.getElementsByTagName(s)[0]),
+    r.parentNode.insertBefore(e,r);})('geralt');
+    geralt.init({debug: true, name: '<Name of your Company>'});
+</script>
